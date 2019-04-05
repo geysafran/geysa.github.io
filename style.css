@@ -1,0 +1,37 @@
+#body {
+	display: flex;
+	justify-content: center;
+}
+#header { width: 300px; 
+	height: 100px;
+	padding: 50px;
+margin: 60px;
+background-color: #fcdad5;
+
+}
+
+#main{
+
+	width: 500px; 
+	height: 100px;
+	padding: 50px;
+margin: 50px;
+background-color: #feede3;
+}
+
+.paragraph {
+	font-size: 20px;
+	color: yellow;
+	text-align: center;
+
+
+}
+
+h1 {
+	color: tomato;
+	font-size: 50px;
+	width: 300px;
+	height: 200px;
+
+}
+
