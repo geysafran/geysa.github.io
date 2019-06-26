@@ -1,19 +1,11 @@
-#body {
+body {
+	margin: 0;
+	padding: 0;
 	display: flex;
 	justify-content: center;
 	background: url(./background.jpg);
 	background-repeat: no-repeat;
-	font-family: 'Indie Flower', cursive;
-
-}
-#header { 
-	width: 300px; 
-	height: 100px;
-	margin: 40px;
-	background-color: #FFB5C5;
-    text-align: center;
-    
-    border-radius: 164px;
+	font-family: 'Acme', sans-serif;
 }
 
 .boxtwo {
@@ -21,21 +13,26 @@
 }
 
 
-#main{
+main{
 
 	
 }
 
-.boxone {
-	width: 400px;
-	background-color: #FFB6C1;
+#container {
+	margin-left: 127%;
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 
 }
 
-.paragraph {
+.text {
+
 	font-size: 25px;
 	color: #751950;
-		text-align: center;
+	text-align: center;
+    width: 106%;
 
 
 }
@@ -43,46 +40,50 @@
 h1 {
 	color: #751950;
 	font-size: 50px;
-	width: 300px;
-	height: 200px;
+	width: 30vw;
+	height: 20vh;
 
 }
 
 .img { 
-
-	
-
+	width: 110%;
+    background: #e91e631f;
+    border-radius: 50%;
+    position: relative;
+    top: 9px;
 
 }
 
 .photo {
-	width: 300px;
-	height: 300px;
-	border-style: groove;
-	border-color: #ce819b;
-	text-align: center;
-	    margin: 12%;
+	width: 47vh;
+    height: 47vh;
+    margin: 6%;
+    border-radius: 50%;
 
 }
 
 .insta {
+	margin: 1%;
 	width: 30px;
     height: 30px; }
 
 .git {
+	margin: 1%;
 	width: 30px;
     height: 30px;
 }
 
 .face {
+	margin: 1%;
 	width: 30px;
     height: 30px;
 
 }
 	    
 
-#pe {
-	  margin-top: 570px;
+footer{
+	width: 100%;
+	position: relative;
     
 }
 
